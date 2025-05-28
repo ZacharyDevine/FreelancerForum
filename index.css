@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: grid;
+  grid-template-rows: 37px 20px 27px 1fr;
+}
+
+h1{
+  grid-row: 1/2;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+
+h3{
+  grid-row: 2/3;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+
+ul{
+  display: flex;
+  justify-self: center;
+  list-style: none;
+  border: 2px solid black;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+#frelancers{
+  flex-direction: column;
+}
+
+#frelancer{
+  
+}
+
+#frelancer li{
+  
+}
+
+ul ul, ul li{
+  flex-grow: 1;
+  justify-self: center;
+}
